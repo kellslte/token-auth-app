@@ -2,7 +2,6 @@ import { CreateUserDto } from './../users/dto/create-user.dto';
 import { UsersService } from './../users/users.service';
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { AuthDto } from './dto/auth.dto';
-import { UpdateAuthDto } from './dto/update-auth.dto';
 import * as argon from 'argon2';
 import { JwtService } from '@nestjs/jwt';
 import * as dotenv from 'dotenv';
